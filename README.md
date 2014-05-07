@@ -1,7 +1,7 @@
 myplanet-sts
 ============
-### Soul Train Studios 
-
+####By:
+![alt tag](https://raw.github.com/mtamer/myplanet-sts/master/soul-logo.png)
 #Task
 **Provide Clean Safe Water**
 * Preferred state: 
