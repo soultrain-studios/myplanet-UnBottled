@@ -11,6 +11,8 @@
 
 	<!-- Organization -->
 	<link href="css/organization.css" rel="stylesheet" type="text/css" />
+	<script src='https://cdn.firebase.com/js/client/1.0.11/firebase.js'></script>
+
 
 </head>
 
@@ -34,11 +36,20 @@
 			<button type="button" class="btn btn-success">Donate to this organization</button>
 		</div>
 	</div>
+	<script type="text/javascript">
+		var myDataRef = new Firebase('https://unbottled.firebaseio.com/');
+	</script>
 
 	
 	<!-- Bootstrap and jQ --> 
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	  <!-- Angular CDN -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+
+  <!-- Firebase CDN -->
+  <script src="http://cdn.firebase.com/js/client/1.0.6/firebase.js"></script>
+
+  <!-- AngularFire CDN -->
+  <script src="http://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
 
 </body>
 
