@@ -1,0 +1,35 @@
+body {
+	font-family: Helvetica, Arial, 'sans serif';
+	line-height: 2em;	
+}
+
+#wrap {
+	width: 960px;
+	margin: auto;
+}
+
+#organization-list {
+}
+
+.organization-list-item {
+	padding: 20px;
+	border-bottom: 1px solid #eeeeee;
+}
+	
+	.organization-logo img {
+		width: 40px;
+		height: 40px;
+	}
+	.organization-description-short {
+		
+	}
+
+	.organization-more {
+		
+	}
+
+.organization-description img {
+	width: 40%;
+	height: 40%;
+	padding-right: 20px;
+}
