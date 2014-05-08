@@ -1,6 +1,6 @@
-angular.module("myChatRoom", [])
+angular.module("Fundraisers", [])
   .factory("ChatService", function() {
-    var ref = new Firebase("https://<my-firebase>.firebaseio.com/chat");
+    var ref = new Firebase("https://unbottled.firebaseio.com/Fundraisers");
     return {
       getMessages: function() {
         var messages = [];
