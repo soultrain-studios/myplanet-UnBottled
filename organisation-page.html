@@ -24,15 +24,12 @@
     </div>
 	</header>
 <div id="wrap">
-	<div class="organization-description">
+	<!-- <div class="organization-description">
 		<button type="button" class="btn btn-success">Donate to this organization</button>
-	</div>
+	</div> -->
 </div>
-	<ul ng-repeat="org in OrgInfos">
-    	<li>{{org.contact}}</li>
-    </ul>
-	<ul ng-repeat="todo in WaterInfos">
-    	<li>{{todo.text}}</li>
+	<ul ng-repeat="org in WaterInfos">
+    	<li>{{org.organization}}<br>{{org.info}} <br>{{org.donate}}</li>
     </ul>
 <!-- Bootstrap and jQ --> 
 <!-- Angular CDN -->
