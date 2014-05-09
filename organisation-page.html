@@ -43,8 +43,8 @@ Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 		<button type="button" class="btn btn-success">Donate to this organization</button>
 	</div>
 </div>
-		<ul ng-repeat="message in messages">
-      <li>{{message.from}}: {{message.content}}</li>
+	<ul ng-repeat="message in messages">
+    	<li>{{message.from}}: {{message.content}}</li>
     </ul>
    <form ng-submit="addMessage();">
       <input type="text" ng-model="message"/>
@@ -64,5 +64,7 @@ Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 <script src="http://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
 </body>
 </html>
+
+
 
 
