@@ -4,16 +4,26 @@
 
 	<title>Organization page - ORGANIZATION NAME</title>
 	
-	<!-- Bootstrap CDN -->
-	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
-
 	<!-- Organization -->
 	<link href="css/organization.css" rel="stylesheet" type="text/css" />
-
 </head>
 
-<body>
+<body ng-controller="OrganizationController">
 	
+	<header>
+
+		<!-- Title with logo at header -->
+		<h2 id="header-title">Unbottled</h2>
+
+
+		<!-- Navigation -->
+		<div id="nav">
+			<div class="nav-item">home</div>
+			<div class="nav-item">about us</div>
+			<div class="nav-item">organizations</div>
+		</div>
+	</header>
+
 	<div id="wrap">
 
 		<h1>Fundraiser organizations</h1>
@@ -22,8 +32,7 @@
 		
 		<!-- List of organizations -->
 
-		<div id="organization-list">
-
+		<div id="organization-list" ng-repeat="organization in organizations">
 			
 			<!-- List item: Taco bell -->
 			<div class="organization-list-item">
@@ -47,8 +56,22 @@
 		</div>
 	</div>
 
+
+
+	<!-- Angular CDN --> 
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script> 
+
+	<!-- Firebase CDN --> 
+	<script src="http://cdn.firebase.com/js/client/1.0.6/firebase.js"></script> 
+
+	<!-- AngularFire CDN --> 
+	<script src="http://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		var myDataRef = new Firebase('https://unbottled.firebaseio.com');
+	</script>
 
 </body>
 
