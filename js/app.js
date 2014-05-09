@@ -1,6 +1,6 @@
-angular.module("Fundraisers", [])
-  .factory("ChatService", function() {
-    var ref = new Firebase("https://unbottled.firebaseio.com/Fundraisers");
+angular.module("unbottled", [])
+  .factory("Water", function() {
+    var ref = new Firebase("https://unbottled.firebaseio.com/Organizations");
     return {
       getMessages: function() {
         var messages = [];
@@ -14,7 +14,7 @@ angular.module("Fundraisers", [])
       }
     }
   })
-  .controller("ChatController", ["$scope", "ChatService",
+  .controller("UnbottledController", ["$scope", "Water",
     function($scope, service) {
       $scope.user = "Guest " + Math.round(Math.random()*101);
       $scope.messages = service.getMessages();
