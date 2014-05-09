@@ -1,4 +1,4 @@
-[{ "text":"learn angular", "done":true },
- { "text":"build an angular app", "done":false},
- { "text":"something", "done":false },
- { "text":"another todo", "done":true }]
+[{ "organization":"Global Water", "info":"Founded in 1982, Global Water is an international, non-profit humanitarian organization with 501(c)(3) tax-exempt status in the United States . We're focused on creating safe water supplies, sanitation facilities and related health programs for rural villagers in developing countries.", "donate":"https://donatenow.networkforgood.org/GlobalWater" },
+ { "organization":"Clean Water Action", "info":"Clean Water Action is a one million member organization of diverse people and groups joined together to protect our environment, health, economic well-being and community quality of life. The goals include clean, safe and affordable water; prevention of health threatening pollution; ", "donate": "https://org.salsalabs.com/o/2155/t/9935/content.jsp?content_KEY=6304" },
+ { "organization":"Water.Org", "info":"Water.org stives to change the water crisis not just by the help of charity and donations, but by planning and implementing new financing models, greater transparency and real partnerships.", "donate": "https://donate.water.org/?a=A00000&utm_campaign=button_footer_red&c=Stripe&utm_medium=web&utm_content=%2Fcontact%2F&utm_source=water_org" },
+ { "organization":"The Water Project", "info":"At The Water Project we believe people, not water, can change everything. When you sponsor a water project through us, you'll unlock the potential of an entire community.", "donate": "https://thewaterproject.org/donate-start"}]
