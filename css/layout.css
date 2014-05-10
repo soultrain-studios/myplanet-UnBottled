@@ -1,6 +1,6 @@
 #wrap {
 	width: 960px;
-	margin: 100px auto auto auto;
+	margin: 120px auto auto auto;
 }
 
 .about {
@@ -32,6 +32,7 @@ header {
 .navbar-header {
 	margin-top: 10px;
 }
+
 .navbar-header img {
 	border: none;
 	float: left;
@@ -40,10 +41,10 @@ header {
 }
 
 .navbar-brand {
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	margin-left: 10px !important;
 	font-size: 18pt !important;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	color: #FFF !important;
 }
 
@@ -56,7 +57,16 @@ header {
 	border: none !important;
 }
 
-.nav .active a {
+.nav li:hover {
+	background-color: #dddddd !important;
+	border-radius: 5px;
+}
+
+.nav li a:hover {
+	color: #a0a0a0 !important;
+}
+
+li .nav .active a {
 	border-radius: 5px;
 	height: 40px
 	background-color: #7C7C7C !important;
@@ -64,6 +74,8 @@ header {
 }
 
 .nav a {
+	text-transform: uppercase !important;
+	font-size: 10pt;
 	color: #FFF !important;
 }
 
@@ -71,10 +83,13 @@ ul.nav {
 	margin: 10px;
 }
 
-li .dropdown a {
+ul .dropdown-menu li a {
 	color: #000 !important;
 }
 
+.dropdown-menu {
+	left: -82px !important;
+}
 
 h1,
 h2,
