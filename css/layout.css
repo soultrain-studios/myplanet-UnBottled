@@ -9,7 +9,7 @@
 
 body {
 	font-family: 'Open Sans', Gotham, 'sans serif' !important;
-	font-size: 12pt;
+	font-size: 12pt !important;
 	line-height: 2em;
 }
 
