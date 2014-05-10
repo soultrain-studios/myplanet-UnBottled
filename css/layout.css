@@ -10,11 +10,6 @@
 #home h1, #home p {
 	text-align: center !important;
 }
-
-h1 {
-	padding-top:30px !important;
-}
-
 body {
 	font-family: 'Open Sans', Gotham, 'sans serif' !important;
 	font-size: 12pt !important;
@@ -105,6 +100,7 @@ h3,
 h4,
 h5,
 h6 {
+	padding-top:30px !important;
 	font-family: 'Open Sans', Gotham, 'sans-serif';
 }
 
