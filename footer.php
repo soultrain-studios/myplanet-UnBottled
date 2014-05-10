@@ -2,7 +2,7 @@
 
 <div id="footer" class="container-fluid">
 
-<div class="row">
+<div class="row footer-row">
 
 	<!-- Column 1 -->
 	<div class="col-md-4">
@@ -28,7 +28,7 @@
 
 	</div>
 
-	<div class="row">
+	<div class="row footer-row">
 
 		<div class="col-md-12 copyright">
 			<p>Program and wesite developed by SoulTrain Studios &copy; 2014. All Rights Reserved.</p>

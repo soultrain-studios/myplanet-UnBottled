@@ -123,6 +123,11 @@ h2#header-title {
 	padding: 20px;
 }
 
+.footer-row {
+	width: 960px !important;
+	margin: auto !important;
+}
+
 #footer ul li {
 	list-style: none;
 }
