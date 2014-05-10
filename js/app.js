@@ -5,9 +5,9 @@ angular.module("unbottled", ["firebase"])
      }])
   .controller ("UnbottledController", ["$scope", "WaterInfo",
     function($scope, WaterInfo) {
+
       // Get types & ratings.
       $scope.WaterInfos = WaterInfo;
-        // Add it via $add on the service. 
+      // Add it via $add on the service. 
     }
   ]);
-
