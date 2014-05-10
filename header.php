@@ -39,23 +39,23 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Unbottled</a>
+      <a class="navbar-brand" href="index.php">Unbottled</a>
     </div>
 
     <!-- NAVIGATION!!!!!!! -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="index.php">Home</a></li>
         <li><a href="about.php">About us</a></li>
         <li><a href="organization-list.php">Organizations</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Facts<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Water Scarcity</a></li>
+            <li><a href="waterScarcity.php">Water Scarcity</a></li>
             <li class="divider"></li>
-            <li><a href="#">Technology</a></li>
+            <li><a href="tech.php">Technology</a></li>
             <li class="divider"></li>
-            <li><a href="#">Progress</a></li>
+            <li><a href="progress.php">Progress</a></li>
           </ul>
         </li>
       </ul>
