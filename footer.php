@@ -46,6 +46,9 @@
 <!-- AngularFire CDN -->
 <script src="http://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
 
+<!-- app.js -->
+<script src='js/app.js'></script>
+
 </body>
 
 </html>
