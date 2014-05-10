@@ -79,20 +79,20 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
   
-    <div class="item active" style="height: 400px; background: url(images/water01.jpg) bottom center;">
+    <div class="item active" style="height: 500px; background: url(images/water01.jpg) bottom center;">
       <div class="carousel-caption">
         <h1>1.75 billion people in this world do not have access to clean water. This is our solution!</h1>
       </div>
     </div>
     
-    <div class="item" style="height: 400px; background: url(images/water02.jpg) bottom center;"> 
+    <div class="item" style="height: 500px; background: url(images/water02.jpg) bottom center;"> 
       <div class="carousel-caption">
         <h1>The Water Project</h1>
         <p><button class="btn btn-success">Learn More</button></p>
       </div>
     </div>
     
-    <div class="item" style="height: 400px; background: url(images/water03.jpg) bottom center;"> 
+    <div class="item" style="height: 500px; background: url(images/water03.jpg) bottom center;"> 
       <div class="carousel-caption">
         <h1>Donate to a good cause, volunteer!</h1>
         <p><button class="btn btn-success">Sign Up</button></p>
