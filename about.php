@@ -5,7 +5,9 @@
 	<div style="text-align: center">
 	<h1>Who are we? What is this place?</h1>
 	<p style="font-size: 16pt">Unbottled brings the most relevent Non-Profit Organizations (NPOs) together in one place, and connects them to the rest of the world! </p>
+	 
 
+	<br />
 
 	<img src="images/team.JPG" width="80%" style="text-align: center" /><br /><br />
 
