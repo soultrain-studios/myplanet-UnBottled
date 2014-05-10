@@ -1,10 +1,14 @@
 #wrap {
 	width: 960px;
-	margin: 120px auto auto auto;
+	margin: 110px auto auto auto;
 }
 
 .about {
 	text-align: center;
+}
+
+#home h1, #home p {
+	text-align: center !important;
 }
 
 body {
