@@ -11,6 +11,10 @@
 	text-align: center !important;
 }
 
+h1 {
+	padding-top:30px !important;
+}
+
 body {
 	font-family: 'Open Sans', Gotham, 'sans serif' !important;
 	font-size: 12pt !important;
