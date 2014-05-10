@@ -2,11 +2,15 @@
 	width: 960px;
 	margin: 100px auto auto auto;
 }
+
+.about {
+	text-align: center;
+}
+
 body {
 	font-family: 'Open Sans', Gotham, 'sans serif';
 	font-size: 12pt;
 	line-height: 2em;
-	
 }
 
 header {

@@ -1,9 +1,8 @@
 <?php include('header.php'); ?>
 
-
 <!-- CONTENT AREA -->
 
-  About page!
+  <p class="about">About page!</p>
 
 
 
