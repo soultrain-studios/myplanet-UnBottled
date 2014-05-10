@@ -18,14 +18,14 @@ header {
 }
 
 
-.back {
+/*.back {
 	background-image: url(../images/water01.jpg) !important;
 	background-size: cover; 
 	height: 1080px;
 	width: 100%;
 	display: block;
 	position: absolute;
-}
+}*/
 
 h1,
 h2,
