@@ -20,7 +20,9 @@
 				</div>
 
 				<div class="organization-more">
-					<button type="button" class="btn btn-success">Learn more</button>
+					<a href="{{org.page}}">
+						<button type="button" class="btn btn-success">Learn more</button>
+					</a>
 				</div>
 
 			</div>
