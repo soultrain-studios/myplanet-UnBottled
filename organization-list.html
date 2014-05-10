@@ -1,8 +1,15 @@
-<html>
+<!doctype html>
+<html ng-app="unbottled">
 
 <head>
 
-	<title>Organization page - ORGANIZATION NAME</title>
+	<title>Organization list</title>
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+
+	<!-- Google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Organization -->
 	<link href="css/organization.css" rel="stylesheet" type="text/css" />
@@ -11,7 +18,7 @@
 	<link href="css/layout.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body ng-controller="OrganizationController">
+<body ng-controller="UnbottledController">
 	
 	<header>
 
@@ -35,19 +42,19 @@
 		
 		<!-- List of organizations -->
 
-		<div id="organization-list" ng-repeat="organization in organizations">
+		<div id="organization-list">
 			
 			<!-- List item: Taco bell -->
-			<div class="organization-list-item">
+			<div class="organization-list-item" ng-repeat="org in WaterInfos">
 
 				<div class="organization-logo">
-					<img src="images/organizations/logo01.jpg" />
+					<img src="images/organizations/{{org.organization}}.jpg" />
 				</div>
 
-				<div class="organization-title">Taco Bell</div>
+				<div class="organization-title">{{org.organization}}</div>
 
 				<div class="organization-description-short">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<p>{{org.info}}</p>
 				</div>
 
 				<div class="organization-more">
@@ -59,22 +66,28 @@
 		</div>
 	</div>
 
-
-
 	<!-- Angular CDN --> 
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script> 
 
 	<!-- Firebase CDN --> 
 	<script src="http://cdn.firebase.com/js/client/1.0.6/firebase.js"></script> 
 
+	<!-- app.js -->
+	<script src="js/app.js"></script>
+
 	<!-- AngularFire CDN --> 
 	<script src="http://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
 
-	<!-- Latest compiled and minified JavaScript -->
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	<!-- Bootstrap -->
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 	<script type="text/javascript">
 		var myDataRef = new Firebase('https://unbottled.firebaseio.com');
 	</script>
+
 
 </body>
 

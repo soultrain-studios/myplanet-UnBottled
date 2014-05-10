@@ -8,7 +8,7 @@
 .organization-list-item {
 	padding: 20px;
 	border-bottom: 1px solid #eeeeee;
-	height: 140px;
+	height: 200px;
 }
 	
 	.organization-logo img {
@@ -24,14 +24,14 @@
 }
 
 	.organization-description-short {
-		width: 700px;
+		width: 678px;
 		height: 75px;
 		float: left;
 	}
 
 	.organization-more {
 		text-align: right;
-		width: 100px;
+		width: 120px;
 		float: left;
 	}
 
