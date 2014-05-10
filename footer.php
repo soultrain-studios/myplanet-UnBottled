@@ -1,3 +1,5 @@
+</div><!-- /wrap -->
+
 <div id="footer" class="container-fluid">
 
 <div class="row">
@@ -35,7 +37,6 @@
 	</div>
 </div>
 
-</div><!-- /wrap -->
 
 <!-- Angular CDN -->
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>

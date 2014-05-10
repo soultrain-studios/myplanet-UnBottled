@@ -39,13 +39,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+
+      <img src="images/unbottled-logo.png" />
+
       <a class="navbar-brand" href="index.php">Unbottled</a>
     </div>
 
     <!-- NAVIGATION!!!!!!! -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About us</a></li>
         <li><a href="organization-list.php">Organizations</a></li>
         <li class="dropdown">
