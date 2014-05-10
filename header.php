@@ -39,6 +39,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+
+      <img src="images/unbottled-logo.png" />
+
       <a class="navbar-brand" href="index.php">Unbottled</a>
     </div>
 

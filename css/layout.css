@@ -8,7 +8,7 @@
 }
 
 body {
-	font-family: 'Open Sans', Gotham, 'sans serif';
+	font-family: 'Open Sans', Gotham, 'sans serif' !important;
 	font-size: 12pt;
 	line-height: 2em;
 }
@@ -25,15 +25,56 @@ header {
 	background-color: #000;
 }
 
+.navbar {
+	padding: 20px 0 20px 0;
+}
 
-/*.back {
-	background-image: url(../images/water01.jpg) !important;
-	background-size: cover; 
-	height: 1080px;
-	width: 100%;
-	display: block;
-	position: absolute;
-}*/
+.navbar-header {
+	margin-top: 10px;
+}
+.navbar-header img {
+	border: none;
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+.navbar-brand {
+	letter-spacing: 1px;
+	margin-left: 10px !important;
+	font-size: 18pt !important;
+	text-transform: uppercase;
+	color: #FFF !important;
+}
+
+.navbar-nav {
+	float: right !important;
+}
+
+.navbar-default {
+	background-color: #444444 !important;
+	border: none !important;
+}
+
+.nav .active a {
+	border-radius: 5px;
+	height: 40px
+	background-color: #7C7C7C !important;
+	color: #333 !important;
+}
+
+.nav a {
+	color: #FFF !important;
+}
+
+ul.nav {
+	margin: 10px;
+}
+
+li .dropdown a {
+	color: #000 !important;
+}
+
 
 h1,
 h2,
