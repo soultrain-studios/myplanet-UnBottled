@@ -1,5 +1,4 @@
 #wrap {
-	width: 960px;
 	margin: 110px auto auto auto;
 }
 
@@ -10,6 +9,7 @@
 #home h1, #home p {
 	text-align: center !important;
 }
+
 body {
 	font-family: 'Open Sans', Gotham, 'sans serif' !important;
 	font-size: 12pt !important;
@@ -40,7 +40,6 @@ header {
 	border: none;
 	float: left;
 	height: 50px;
-	width: 50px;
 }
 
 .navbar-brand {
@@ -60,6 +59,10 @@ header {
 	border: none !important;
 }
 
+.nav li, .nav li a {
+	height:30px;
+}
+
 .nav li:hover {
 	background-color: #dddddd !important;
 	border-radius: 5px;
@@ -71,7 +74,7 @@ header {
 
 li .nav .active a {
 	border-radius: 5px;
-	height: 40px
+	height: 30px;
 	background-color: #7C7C7C !important;
 	color: #333 !important;
 }
@@ -79,6 +82,7 @@ li .nav .active a {
 .nav a {
 	text-transform: uppercase !important;
 	font-size: 10pt;
+	letter-spacing: 1px;
 	color: #FFF !important;
 }
 

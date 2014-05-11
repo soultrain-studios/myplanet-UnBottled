@@ -1,3 +1,5 @@
+		</div><!-- col-md-12 -->
+	</div><!-- row -->
 </div><!-- /wrap -->
 
 <div id="footer" class="container-fluid">

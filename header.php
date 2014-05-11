@@ -67,4 +67,6 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div id="wrap">
+<div id="wrap" class="container">
+  <div class="row">
+    <div class="col-md-12">

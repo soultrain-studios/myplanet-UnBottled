@@ -40,9 +40,7 @@
         <span class="icon-bar"></span>
       </button>
 
-      <img src="images/unbottled-logo.png" />
-
-      <a class="navbar-brand" href="index.php">Unbottled</a>
+      <a href="index.php"><img src="images/unbottled-logo.png" height="70" /></a>
     </div>
 
     <!-- NAVIGATION!!!!!!! -->
@@ -105,4 +103,6 @@
   <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> </div>
 
 
-<div id="wrap">
+<div id="wrap" class="container">
+  <div class="row">
+    <div class="col-md-12">
