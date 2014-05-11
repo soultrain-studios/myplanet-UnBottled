@@ -40,9 +40,7 @@
         <span class="icon-bar"></span>
       </button>
 
-      <img src="images/unbottled-logo.png" />
-
-      <a class="navbar-brand" href="index.php">Unbottled</a>
+      <a href="index.php"><img src="images/unbottled-logo.png" /></a>
     </div>
 
     <!-- NAVIGATION!!!!!!! -->
