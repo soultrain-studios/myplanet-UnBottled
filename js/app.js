@@ -3,11 +3,12 @@ angular.module("unbottled", ["firebase"])
     var ref = new Firebase("https://unbottled1.firebaseio.com/");
     return $firebase(ref);
      }])
-  .controller ("UnbottledController", ["$scope", "WaterInfo",
-    function($scope, WaterInfo) {
-
-      // Get types & ratings.
+  .controller ("UnbottledController", ["$scope","$sce", "WaterInfo",
+    function($scope, $sce, WaterInfo) {
       $scope.WaterInfos = WaterInfo;
-      // Add it via $add on the service. 
+      $scope.to_trusted = function(WaterInfo){
+      return $sce.trustAsHtml(WaterInfo)
+      }
     }
   ]);
+// 

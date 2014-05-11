@@ -3,10 +3,10 @@
 	<!-- <div class="organization-description">
 		<button type="button" class="btn btn-success">Donate to this organization</button>
 	</div> -->
-		{{WaterInfos.0.longDescription}}
+		<div ng-bind-html="to_trusted(WaterInfos.0.longDescription)"></div>
     <!-- 	<li>{{org.organization}}<br>{{org.info}} <br>{{org.donate}}</li> -->
 
-<?php include('footer.php'); ?>
+<?php include('footer.php');?>
 
 
 
