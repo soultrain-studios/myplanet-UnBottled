@@ -59,17 +59,12 @@ header {
 	border: none !important;
 }
 
-.nav li, .nav li a {
-	height:30px;
-}
-
 .nav li:hover {
-	background-color: #dddddd !important;
+	background-color: #000000 !important;
 	border-radius: 5px;
 }
 
 .nav li a:hover {
-	color: #a0a0a0 !important;
 }
 
 li .nav .active a {
@@ -94,7 +89,15 @@ ul .dropdown-menu li a {
 	color: #000 !important;
 }
 
+.dropdown-menu li a:hover {
+	background-color: #B0E3F9 !important;
+}
+
+.dropdown-menu:hover, a.dropdown-toggle:hover {
+	background-color: #fff !important;
+}
 .dropdown-menu {
+	background-color: #fff;
 	left: -82px !important;
 }
 
